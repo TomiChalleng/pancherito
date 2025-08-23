@@ -11,6 +11,6 @@ boton.addEventListener("click", ()=> {
         i++;
     }
     if (i > 2 && confirm("ÚLTIMA ADVERTENCIA")) {
-        window.location.href = "https://www.youtube.com/@DragonFire666HD"
+        window.location.href = "https://www.youtube.com/@DragonFire666HD?sub_confirmation=1"
     }
 });
