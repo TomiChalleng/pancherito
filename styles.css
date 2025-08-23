@@ -6,6 +6,7 @@ p {
 * {
     border: 2px solid brown;
     border-radius: 30px;
+    text-align: center;
 }
 
 .iegh:hover {
@@ -20,4 +21,10 @@ p {
 }
 #aiagh:hover {
     opacity: 70%;
+}
+
+#pancherito {
+    display: flex;
+    align-self: center;
+    justify-content: center;
 }
