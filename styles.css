@@ -1,40 +1,70 @@
-p {
-    font-family:'Courier New', Courier, monospace;
-}
-
-
 * {
-    border: 2px solid brown;
-    border-radius: 30px;
+    color: white;
+    text-shadow: 4px 4px 4px black;
+}
+
+body {
+    background: linear-gradient(to right, purple, darkblue);
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
     text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
-.iegh:hover {
-    width: 50px;
-    height: 50px;
-    filter: opacity(50%);
+nav ul {
+    list-style: none;
 }
 
-.iegh {
-    width: 100px;
-    height: 100px;
-}
-#aiagh:hover {
-    opacity: 70%;
+
+li {
+    display: inline;
+    margin: 0 15px;
 }
 
-#pancherito {
-    display: flex;
-    align-self: center;
-    justify-content: center;
+li * {
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 5px;
+    border-radius: 5px;
 }
 
-#darkmodebutton:hover {
-    background-color: black;
-    color: white;
+main {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
-.dark-mode {
-    background-color: black;
-    color: white;
+main h1 {
+    text-shadow: 3px 2px 2px black;
+}
+
+img {
+    width: 125px;
+    height: 90vh;
+    cursor: pointer;
+}
+
+#ad1 {
+    float: left;
+    margin-left: 20px;
+}
+
+#ad2 {
+    float: right;
+    margin-right: 20px;
 }
