@@ -26,6 +26,7 @@ nav {
 
 nav ul {
     list-style: none;
+    padding: 0;
 }
 
 
@@ -67,4 +68,34 @@ img {
 #ad2 {
     float: right;
     margin-right: 20px;
+}
+
+@media screen and (max-width: 500px) {
+    nav {
+        padding: 5px;
+    }
+    nav ul {
+        padding: 0;
+    }
+    nav ul li {
+        display: block;
+        margin-top: 10px;
+    }
+
+    body {
+        margin-top: 200px;
+    }
+    #ad1, #ad2 {
+        display: block;
+        float: none;
+        margin: 10px auto;
+        width: 80%;
+        height: 100px;
+        position: relative;
+        top: 0;
+    }
+
+    h1 {
+        margin-top: -80px;
+    }
 }
