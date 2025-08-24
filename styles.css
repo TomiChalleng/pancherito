@@ -28,3 +28,13 @@ p {
     align-self: center;
     justify-content: center;
 }
+
+#darkmodebutton:hover {
+    background-color: black;
+    color: white;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}

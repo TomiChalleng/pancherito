@@ -35,6 +35,11 @@ function contar() {
     }, 1000)
 };
 
-
-
 contar();
+
+const darkModeButton = document.getElementById("darkmodebutton");
+darkModeButton.addEventListener("click", () => {
+    document.querySelectorAll('a, button, p, h1, body').forEach(element => {
+        element.classList.toggle('dark-mode');
+})
+});
