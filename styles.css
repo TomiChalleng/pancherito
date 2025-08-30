@@ -46,7 +46,6 @@ li * {
 main {
     width: 80%;
     margin: 0 auto;
-    margin-top: 100px;
     background-color: rgba(0, 0, 0, 0.2);
 }
 
@@ -58,6 +57,14 @@ img {
     width: 125px;
     height: 90vh;
     cursor: pointer;
+}
+
+#icono {
+    display: flex;
+    margin: 0px auto;
+    margin-top: 80px;
+    width: 90%;
+    height: auto;
 }
 
 #ad1 {
